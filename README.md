@@ -15,8 +15,8 @@
 
 ---
 
-I left iTerm2 because it had too many settings. kitty is fast and lives in one text file, but its default
-shortcuts are all `ctrl+shift+...`, and I already know iTerm's. This config gives kitty iTerm's keys,
+I left iTerm2 because it had too many settings. kitty is fast and lives in one text file, but most of its default
+shortcuts are `ctrl+shift+...`, and I already know iTerm's. This config gives kitty iTerm's keys,
 and gives each window its own color theme so you can tell them apart.
 
 ## What you get
@@ -33,7 +33,7 @@ and gives each window its own color theme so you can tell them apart.
 
 ```sh
 # 1. back up whatever you have
-[ -d ~/.config/kitty ] && mv ~/.config/kitty ~/.config/kitty.backup-$(date +%Y%m%d)
+[ -d ~/.config/kitty ] && mv ~/.config/kitty ~/.config/kitty.backup-$(date +%Y%m%d-%H%M%S)
 
 # 2. clone straight into kitty's config dir
 git clone https://github.com/atharva-2001/kitty-but-like-iterm ~/.config/kitty
@@ -157,10 +157,11 @@ kitty.conf ─┬─ include      iterm2-keys.conf     every shortcut, kitty def
 > [!WARNING]
 > `allow_remote_control yes` lets **any program running inside kitty** control kitty: change colors, open
 > windows, send text. The theme scripts need this. If that bothers you, change it to
-> `allow_remote_control password` and set a `remote_control_password` (see the
+> `allow_remote_control password`, set a `remote_control_password` limited to `set-colors set-tab-color ls launch`,
+> and export the same password as `KITTY_RC_PASSWORD` in your shell so the theme scripts keep working (see the
 > [kitty docs](https://sw.kovidgoyal.net/kitty/remote-control/#confval-remote_control_password)).
 
-- **Undo one shortcut:** delete its `map` line. **Get all of kitty's defaults back:** comment out
+- **Disable one shortcut:** delete its `map` line (the key becomes unbound; the `# was:` comment above it shows kitty's default if you want that back). **Get all of kitty's defaults back:** comment out
   `clear_all_shortcuts yes` in `iterm2-keys.conf`.
 - **Turn off random themes:** remove the `.zshrc` block and the `watcher` line.
 - **Inside vim or a TUI** the app may draw its own background, so the theme only shows around it.

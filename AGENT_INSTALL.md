@@ -9,7 +9,8 @@ Do not delete any user file. Stop and ask the user if a step fails or something 
    On any other OS, stop and tell the user.
 2. kitty is installed: `command -v kitten` works, or `/Applications/kitty.app` exists. If not, tell the user
    to install it from https://sw.kovidgoyal.net/kitty/ and stop.
-3. The user's shell is zsh. `random-theme.sh` is a zsh script and the hook below goes in `~/.zshrc`.
+3. `command -v python3` works (the theme watcher is Python).
+4. The user's shell is zsh. `random-theme.sh` is a zsh script and the hook below goes in `~/.zshrc`.
    If they use another shell, tell them only the `.zshrc` hook step needs adapting.
 
 ## Steps
@@ -33,8 +34,9 @@ Do not delete any user file. Stop and ask the user if a step fails or something 
    (for example `font_family`, `font_size`, `background_opacity`), list them for the user and ask before
    adding any to the end of the new `~/.config/kitty/kitty.conf`. Do not bring back the old keybindings.
 6. **Validate.** Run `~/.config/kitty/pick-theme.sh`. It must print `include theme-light.conf` or
-   `include theme-dark.conf`. Run `python3 -m py_compile ~/.config/kitty/theme-watcher.py`. It must
-   exit 0. Then delete the generated `~/.config/kitty/__pycache__` directory.
+   `include theme-dark.conf`. Run
+   `python3 -c 'import sys; compile(open(sys.argv[1]).read(), sys.argv[1], "exec")' ~/.config/kitty/theme-watcher.py`.
+   It must exit 0 (this writes no files).
 
 ## Finish
 

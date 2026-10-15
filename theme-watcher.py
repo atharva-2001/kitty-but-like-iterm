@@ -29,7 +29,7 @@ def _apply_random(boss, window, is_dark):
         return
     theme = random.choice(themes)
     boss.call_remote_control(window, ('set-colors', f'--match=id:{window.id}', theme))
-    accent = _first(theme, 'cursor')
+    accent = _first(theme, 'cursor') or _first(theme, 'foreground')
     dim = _first(theme, 'color0')
     bg = _first(theme, 'background')
     if accent and bg:

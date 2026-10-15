@@ -36,8 +36,9 @@ mkdir -p "$HOME/.cache" && print -r -- "$theme" > "$state"
 
 "$KITTEN" @ set-colors "$theme" 2>/dev/null || exit 0
 
-# Tint this window's tab: accent = the theme's cursor color, dim = color0.
+# Tint this window's tab: accent = the theme's cursor color (or foreground), dim = color0.
 accent=$(awk '$1 == "cursor" {print $2; exit}' "$theme")
+[[ -n "$accent" ]] || accent=$(awk '$1 == "foreground" {print $2; exit}' "$theme")
 dim=$(awk '$1 == "color0" {print $2; exit}' "$theme")
 bg=$(awk '$1 == "background" {print $2; exit}' "$theme")
 if [[ -n "$accent" && -n "$bg" ]]; then
