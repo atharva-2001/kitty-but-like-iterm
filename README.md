@@ -15,7 +15,7 @@
 
 ---
 
-I left iTerm2 because it had too many settings. kitty is fast and lives in one text file, but most of its default
+I left iTerm2 because it used a lot of resources. kitty is fast and lives in one text file, but most of its default
 shortcuts are `ctrl+shift+...`, and I already know iTerm's. This config gives kitty iTerm's keys,
 and gives each window its own color theme so you can tell them apart.
 
