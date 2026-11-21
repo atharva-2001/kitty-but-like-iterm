@@ -103,108 +103,124 @@
 <circle cx="82" cy="224" r="6" fill="#7aa2f7"/>
 <circle cx="100" cy="224" r="6" fill="#bb9af7"/>
 <circle cx="118" cy="224" r="6" fill="#7dcfff"/>
-<rect x="8" y="258" width="230" height="54" rx="10" fill="#fafafa" stroke="#8884" />
-<text x="22" y="280" font-size="13" fill="#5b6673">ayu</text>
-<circle cx="28" cy="296" r="6" fill="#ff3333"/>
-<circle cx="46" cy="296" r="6" fill="#86b200"/>
-<circle cx="64" cy="296" r="6" fill="#f19618"/>
-<circle cx="82" cy="296" r="6" fill="#41a6d9"/>
-<circle cx="100" cy="296" r="6" fill="#f07078"/>
-<circle cx="118" cy="296" r="6" fill="#4cbe99"/>
-<rect x="246" y="258" width="230" height="54" rx="10" fill="#EFF1F5" stroke="#8884" />
-<text x="260" y="280" font-size="13" fill="#4C4F69">catppuccin-latte</text>
-<circle cx="266" cy="296" r="6" fill="#D20F39"/>
-<circle cx="284" cy="296" r="6" fill="#40A02B"/>
-<circle cx="302" cy="296" r="6" fill="#DF8E1D"/>
-<circle cx="320" cy="296" r="6" fill="#1E66F5"/>
-<circle cx="338" cy="296" r="6" fill="#EA76CB"/>
-<circle cx="356" cy="296" r="6" fill="#179299"/>
-<rect x="484" y="258" width="230" height="54" rx="10" fill="#f6f2ee" stroke="#8884" />
-<text x="498" y="280" font-size="13" fill="#3d2b5a">dayfox</text>
-<circle cx="504" cy="296" r="6" fill="#a5222f"/>
-<circle cx="522" cy="296" r="6" fill="#396847"/>
-<circle cx="540" cy="296" r="6" fill="#ac5402"/>
-<circle cx="558" cy="296" r="6" fill="#286983"/>
-<circle cx="576" cy="296" r="6" fill="#6e33ce"/>
-<circle cx="594" cy="296" r="6" fill="#287980"/>
-<rect x="722" y="258" width="230" height="54" rx="10" fill="#f3ead3" stroke="#8884" />
-<text x="736" y="280" font-size="13" fill="#5c6a72">everforest</text>
-<circle cx="742" cy="296" r="6" fill="#f85552"/>
-<circle cx="760" cy="296" r="6" fill="#8da101"/>
-<circle cx="778" cy="296" r="6" fill="#dfa000"/>
-<circle cx="796" cy="296" r="6" fill="#3a94c5"/>
-<circle cx="814" cy="296" r="6" fill="#df69ba"/>
-<circle cx="832" cy="296" r="6" fill="#35a77c"/>
-<rect x="8" y="320" width="230" height="54" rx="10" fill="#ffffff" stroke="#8884" />
-<text x="22" y="342" font-size="13" fill="#24292f">github</text>
-<circle cx="28" cy="358" r="6" fill="#cf222e"/>
-<circle cx="46" cy="358" r="6" fill="#116329"/>
-<circle cx="64" cy="358" r="6" fill="#4d2d00"/>
-<circle cx="82" cy="358" r="6" fill="#0969da"/>
-<circle cx="100" cy="358" r="6" fill="#8250df"/>
-<circle cx="118" cy="358" r="6" fill="#1b7c83"/>
-<rect x="246" y="320" width="230" height="54" rx="10" fill="#fbf1c7" stroke="#8884" />
-<text x="260" y="342" font-size="13" fill="#3c3836">gruvbox</text>
-<circle cx="266" cy="358" r="6" fill="#cc241d"/>
-<circle cx="284" cy="358" r="6" fill="#98971a"/>
-<circle cx="302" cy="358" r="6" fill="#d79921"/>
-<circle cx="320" cy="358" r="6" fill="#458588"/>
-<circle cx="338" cy="358" r="6" fill="#b16286"/>
-<circle cx="356" cy="358" r="6" fill="#689d6a"/>
-<rect x="484" y="320" width="230" height="54" rx="10" fill="#f2ecbc" stroke="#8884" />
-<text x="498" y="342" font-size="13" fill="#545464">kanagawa</text>
-<circle cx="504" cy="358" r="6" fill="#c84053"/>
-<circle cx="522" cy="358" r="6" fill="#6f894e"/>
-<circle cx="540" cy="358" r="6" fill="#77713f"/>
-<circle cx="558" cy="358" r="6" fill="#4d699b"/>
-<circle cx="576" cy="358" r="6" fill="#b35b79"/>
-<circle cx="594" cy="358" r="6" fill="#597b75"/>
-<rect x="722" y="320" width="230" height="54" rx="10" fill="#FAFAFA" stroke="#8884" />
-<text x="736" y="342" font-size="13" fill="#383A42">one-half</text>
-<circle cx="742" cy="358" r="6" fill="#E45649"/>
-<circle cx="760" cy="358" r="6" fill="#40A14F"/>
-<circle cx="778" cy="358" r="6" fill="#C18401"/>
-<circle cx="796" cy="358" r="6" fill="#0184BC"/>
-<circle cx="814" cy="358" r="6" fill="#A626A4"/>
-<circle cx="832" cy="358" r="6" fill="#0997B3"/>
-<rect x="8" y="382" width="230" height="54" rx="10" fill="#eeeeee" stroke="#8884" />
-<text x="22" y="404" font-size="13" fill="#444444">papercolor</text>
-<circle cx="28" cy="420" r="6" fill="#af0000"/>
-<circle cx="46" cy="420" r="6" fill="#008700"/>
-<circle cx="64" cy="420" r="6" fill="#5f8700"/>
-<circle cx="82" cy="420" r="6" fill="#0087af"/>
-<circle cx="100" cy="420" r="6" fill="#878787"/>
-<circle cx="118" cy="420" r="6" fill="#005f87"/>
-<rect x="246" y="382" width="230" height="54" rx="10" fill="#f0f0f0" stroke="#8884" />
-<text x="260" y="404" font-size="13" fill="#414141">pencil</text>
-<circle cx="266" cy="420" r="6" fill="#c30670"/>
-<circle cx="284" cy="420" r="6" fill="#10a778"/>
-<circle cx="302" cy="420" r="6" fill="#a79c14"/>
-<circle cx="320" cy="420" r="6" fill="#008ec4"/>
-<circle cx="338" cy="420" r="6" fill="#523b78"/>
-<circle cx="356" cy="420" r="6" fill="#20a4b9"/>
-<rect x="484" y="382" width="230" height="54" rx="10" fill="#faf4ed" stroke="#8884" />
-<text x="498" y="404" font-size="13" fill="#575279">rose-pine-dawn</text>
-<circle cx="504" cy="420" r="6" fill="#b4637a"/>
-<circle cx="522" cy="420" r="6" fill="#286983"/>
-<circle cx="540" cy="420" r="6" fill="#ea9d34"/>
-<circle cx="558" cy="420" r="6" fill="#56949f"/>
-<circle cx="576" cy="420" r="6" fill="#907aa9"/>
-<circle cx="594" cy="420" r="6" fill="#d7827e"/>
-<rect x="722" y="382" width="230" height="54" rx="10" fill="#fdf6e3" stroke="#8884" />
-<text x="736" y="404" font-size="13" fill="#657b83">solarized</text>
-<circle cx="742" cy="420" r="6" fill="#dc322f"/>
-<circle cx="760" cy="420" r="6" fill="#859900"/>
-<circle cx="778" cy="420" r="6" fill="#b58900"/>
-<circle cx="796" cy="420" r="6" fill="#268bd2"/>
-<circle cx="814" cy="420" r="6" fill="#d33682"/>
-<circle cx="832" cy="420" r="6" fill="#2aa198"/>
-<rect x="8" y="444" width="230" height="54" rx="10" fill="#e1e2e7" stroke="#8884" />
-<text x="22" y="466" font-size="13" fill="#3760bf">tokyo-night-day</text>
-<circle cx="28" cy="482" r="6" fill="#f52a65"/>
-<circle cx="46" cy="482" r="6" fill="#587539"/>
-<circle cx="64" cy="482" r="6" fill="#8c6c3e"/>
-<circle cx="82" cy="482" r="6" fill="#2e7de9"/>
-<circle cx="100" cy="482" r="6" fill="#9854f1"/>
-<circle cx="118" cy="482" r="6" fill="#007197"/>
+<rect x="8" y="258" width="230" height="54" rx="10" fill="#f7f7f7" stroke="#8884" />
+<text x="22" y="280" font-size="13" fill="#4a4543">3024-day</text>
+<circle cx="28" cy="296" r="6" fill="#db2d20"/>
+<circle cx="46" cy="296" r="6" fill="#01a252"/>
+<circle cx="64" cy="296" r="6" fill="#caba00"/>
+<circle cx="82" cy="296" r="6" fill="#01a0e4"/>
+<circle cx="100" cy="296" r="6" fill="#a16a94"/>
+<circle cx="118" cy="296" r="6" fill="#8fbece"/>
+<rect x="246" y="258" width="230" height="54" rx="10" fill="#fafafa" stroke="#8884" />
+<text x="260" y="280" font-size="13" fill="#5b6673">ayu</text>
+<circle cx="266" cy="296" r="6" fill="#ff3333"/>
+<circle cx="284" cy="296" r="6" fill="#86b200"/>
+<circle cx="302" cy="296" r="6" fill="#f19618"/>
+<circle cx="320" cy="296" r="6" fill="#41a6d9"/>
+<circle cx="338" cy="296" r="6" fill="#f07078"/>
+<circle cx="356" cy="296" r="6" fill="#4cbe99"/>
+<rect x="484" y="258" width="230" height="54" rx="10" fill="#fbf5f8" stroke="#8884" />
+<text x="498" y="280" font-size="13" fill="#55414e">callie-light</text>
+<circle cx="504" cy="296" r="6" fill="#9e5251"/>
+<circle cx="522" cy="296" r="6" fill="#3f7b4a"/>
+<circle cx="540" cy="296" r="6" fill="#886518"/>
+<circle cx="558" cy="296" r="6" fill="#4b6ba6"/>
+<circle cx="576" cy="296" r="6" fill="#985270"/>
+<circle cx="594" cy="296" r="6" fill="#027c7d"/>
+<rect x="722" y="258" width="230" height="54" rx="10" fill="#f8f6ed" stroke="#8884" />
+<text x="736" y="280" font-size="13" fill="#1d2028">carbon-paper</text>
+<circle cx="742" cy="296" r="6" fill="#842424"/>
+<circle cx="760" cy="296" r="6" fill="#145a37"/>
+<circle cx="778" cy="296" r="6" fill="#654d00"/>
+<circle cx="796" cy="296" r="6" fill="#17458b"/>
+<circle cx="814" cy="296" r="6" fill="#603187"/>
+<circle cx="832" cy="296" r="6" fill="#005866"/>
+<rect x="8" y="320" width="230" height="54" rx="10" fill="#EFF1F5" stroke="#8884" />
+<text x="22" y="342" font-size="13" fill="#4C4F69">catppuccin-latte</text>
+<circle cx="28" cy="358" r="6" fill="#D20F39"/>
+<circle cx="46" cy="358" r="6" fill="#40A02B"/>
+<circle cx="64" cy="358" r="6" fill="#DF8E1D"/>
+<circle cx="82" cy="358" r="6" fill="#1E66F5"/>
+<circle cx="100" cy="358" r="6" fill="#EA76CB"/>
+<circle cx="118" cy="358" r="6" fill="#179299"/>
+<rect x="246" y="320" width="230" height="54" rx="10" fill="#f6f2ee" stroke="#8884" />
+<text x="260" y="342" font-size="13" fill="#3d2b5a">dayfox</text>
+<circle cx="266" cy="358" r="6" fill="#a5222f"/>
+<circle cx="284" cy="358" r="6" fill="#396847"/>
+<circle cx="302" cy="358" r="6" fill="#ac5402"/>
+<circle cx="320" cy="358" r="6" fill="#286983"/>
+<circle cx="338" cy="358" r="6" fill="#6e33ce"/>
+<circle cx="356" cy="358" r="6" fill="#287980"/>
+<rect x="484" y="320" width="230" height="54" rx="10" fill="#fcfbf9" stroke="#8884" />
+<text x="498" y="342" font-size="13" fill="#605a52">earl-grey</text>
+<circle cx="504" cy="358" r="6" fill="#8f5652"/>
+<circle cx="522" cy="358" r="6" fill="#747b4d"/>
+<circle cx="540" cy="358" r="6" fill="#897d43"/>
+<circle cx="558" cy="358" r="6" fill="#556995"/>
+<circle cx="576" cy="358" r="6" fill="#83577d"/>
+<circle cx="594" cy="358" r="6" fill="#477a7b"/>
+<rect x="722" y="320" width="230" height="54" rx="10" fill="#f3ead3" stroke="#8884" />
+<text x="736" y="342" font-size="13" fill="#5c6a72">everforest</text>
+<circle cx="742" cy="358" r="6" fill="#f85552"/>
+<circle cx="760" cy="358" r="6" fill="#8da101"/>
+<circle cx="778" cy="358" r="6" fill="#dfa000"/>
+<circle cx="796" cy="358" r="6" fill="#3a94c5"/>
+<circle cx="814" cy="358" r="6" fill="#df69ba"/>
+<circle cx="832" cy="358" r="6" fill="#35a77c"/>
+<rect x="8" y="382" width="230" height="54" rx="10" fill="#ffffff" stroke="#8884" />
+<text x="22" y="404" font-size="13" fill="#24292f">github</text>
+<circle cx="28" cy="420" r="6" fill="#cf222e"/>
+<circle cx="46" cy="420" r="6" fill="#116329"/>
+<circle cx="64" cy="420" r="6" fill="#4d2d00"/>
+<circle cx="82" cy="420" r="6" fill="#0969da"/>
+<circle cx="100" cy="420" r="6" fill="#8250df"/>
+<circle cx="118" cy="420" r="6" fill="#1b7c83"/>
+<rect x="246" y="382" width="230" height="54" rx="10" fill="#FAFAFA" stroke="#8884" />
+<text x="260" y="404" font-size="13" fill="#383A42">one-half</text>
+<circle cx="266" cy="420" r="6" fill="#E45649"/>
+<circle cx="284" cy="420" r="6" fill="#40A14F"/>
+<circle cx="302" cy="420" r="6" fill="#C18401"/>
+<circle cx="320" cy="420" r="6" fill="#0184BC"/>
+<circle cx="338" cy="420" r="6" fill="#A626A4"/>
+<circle cx="356" cy="420" r="6" fill="#0997B3"/>
+<rect x="484" y="382" width="230" height="54" rx="10" fill="#eeeeee" stroke="#8884" />
+<text x="498" y="404" font-size="13" fill="#444444">papercolor</text>
+<circle cx="504" cy="420" r="6" fill="#af0000"/>
+<circle cx="522" cy="420" r="6" fill="#008700"/>
+<circle cx="540" cy="420" r="6" fill="#5f8700"/>
+<circle cx="558" cy="420" r="6" fill="#0087af"/>
+<circle cx="576" cy="420" r="6" fill="#878787"/>
+<circle cx="594" cy="420" r="6" fill="#005f87"/>
+<rect x="722" y="382" width="230" height="54" rx="10" fill="#f0f0f0" stroke="#8884" />
+<text x="736" y="404" font-size="13" fill="#414141">pencil</text>
+<circle cx="742" cy="420" r="6" fill="#c30670"/>
+<circle cx="760" cy="420" r="6" fill="#10a778"/>
+<circle cx="778" cy="420" r="6" fill="#a79c14"/>
+<circle cx="796" cy="420" r="6" fill="#008ec4"/>
+<circle cx="814" cy="420" r="6" fill="#523b78"/>
+<circle cx="832" cy="420" r="6" fill="#20a4b9"/>
+<rect x="8" y="444" width="230" height="54" rx="10" fill="#faf4ed" stroke="#8884" />
+<text x="22" y="466" font-size="13" fill="#575279">rose-pine-dawn</text>
+<circle cx="28" cy="482" r="6" fill="#b4637a"/>
+<circle cx="46" cy="482" r="6" fill="#286983"/>
+<circle cx="64" cy="482" r="6" fill="#ea9d34"/>
+<circle cx="82" cy="482" r="6" fill="#56949f"/>
+<circle cx="100" cy="482" r="6" fill="#907aa9"/>
+<circle cx="118" cy="482" r="6" fill="#d7827e"/>
+<rect x="246" y="444" width="230" height="54" rx="10" fill="#fdf6e3" stroke="#8884" />
+<text x="260" y="466" font-size="13" fill="#657b83">solarized</text>
+<circle cx="266" cy="482" r="6" fill="#dc322f"/>
+<circle cx="284" cy="482" r="6" fill="#859900"/>
+<circle cx="302" cy="482" r="6" fill="#b58900"/>
+<circle cx="320" cy="482" r="6" fill="#268bd2"/>
+<circle cx="338" cy="482" r="6" fill="#d33682"/>
+<circle cx="356" cy="482" r="6" fill="#2aa198"/>
+<rect x="484" y="444" width="230" height="54" rx="10" fill="#e1e2e7" stroke="#8884" />
+<text x="498" y="466" font-size="13" fill="#3760bf">tokyo-night-day</text>
+<circle cx="504" cy="482" r="6" fill="#f52a65"/>
+<circle cx="522" cy="482" r="6" fill="#587539"/>
+<circle cx="540" cy="482" r="6" fill="#8c6c3e"/>
+<circle cx="558" cy="482" r="6" fill="#2e7de9"/>
+<circle cx="576" cy="482" r="6" fill="#9854f1"/>
+<circle cx="594" cy="482" r="6" fill="#007197"/>
 </svg>

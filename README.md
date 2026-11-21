@@ -8,7 +8,7 @@
 
 ![macOS](https://img.shields.io/badge/macOS-only-1e1e2e?style=flat-square&logo=apple)
 ![kitty](https://img.shields.io/badge/kitty-0.3x%2B-c6a0f6?style=flat-square)
-![themes](https://img.shields.io/badge/themes-26-f5bde6?style=flat-square)
+![themes](https://img.shields.io/badge/themes-28-f5bde6?style=flat-square)
 ![license](https://img.shields.io/badge/license-MIT-8aadf4?style=flat-square)
 
 </div>
@@ -24,7 +24,7 @@ and gives each window its own color theme so you can tell them apart.
 | | |
 |---|---|
 | ⌨️ **iTerm2 keymap** | `⌘D` splits, `⌘T` tabs, `⌘1…9` jump, `⌘⌥←→` moves between panes. kitty's defaults are cleared first, so every binding is listed in one file. |
-| 🎨 **A different theme per window** | Each new window or tab picks a random theme from 26 curated ones (Catppuccin, Rosé Pine, Kanagawa, Tokyo Night...) and colors its tab to match. The same theme never comes up twice in a row. |
+| 🎨 **A different theme per window** | Each new window or tab picks a random theme from 28 curated ones (Catppuccin, Rosé Pine, Kanagawa, Tokyo Night...) and colors its tab to match. The same theme never comes up twice in a row. |
 | 🌗 **Follows macOS light/dark** | When you switch the system appearance, every open window instantly picks a new theme from the matching set. kitty sends an event for this, so nothing polls. |
 | 🛟 **Asks before closing running programs** | `⌘Q` asks first if something other than the shell is still running in a window. |
 | 📋 **iTerm habits** | Copy on select, Option acts as Alt, block cursor, powerline tabs, 10k lines of scrollback, a visual bell instead of a sound. |
@@ -127,7 +127,7 @@ Anything not listed here does nothing.
 
 ## The themes
 
-<img src="assets/themes.svg" alt="Swatches for all 26 bundled themes, 13 dark and 13 light" width="100%">
+<img src="assets/themes.svg" alt="Swatches for all 28 bundled themes, 13 dark and 15 light" width="100%">
 
 The file name prefix decides which set a theme belongs to: `dark-*.conf` themes are used in Dark Mode and
 `light-*.conf` themes in Light Mode. To add a theme, drop a file in. To remove one, delete it.
@@ -149,7 +149,7 @@ kitty.conf ─┬─ include      iterm2-keys.conf     every shortcut, kitty def
 | [`pick-theme.sh`](pick-theme.sh) | Prints `include theme-light.conf` or `theme-dark.conf` |
 | [`random-theme.sh`](random-theme.sh) | Applies a random theme from the matching set to the current window |
 | [`theme-watcher.py`](theme-watcher.py) | kitty watcher; `on_color_scheme_preference_change` re-rolls each window |
-| [`themes/`](themes) | The 26 themes in the random rotation |
+| [`themes/`](themes) | The 28 themes in the random rotation |
 
 ## Good to know
 
@@ -170,5 +170,6 @@ kitty.conf ─┬─ include      iterm2-keys.conf     every shortcut, kitty def
 
 ## Credits
 
-The themes come from [kovidgoyal/kitty-themes](https://github.com/kovidgoyal/kitty-themes). Each file
+The themes come from [kovidgoyal/kitty-themes](https://github.com/kovidgoyal/kitty-themes) and
+[mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes). Each file
 keeps the author and license from its own header. Everything else is [MIT](LICENSE).
