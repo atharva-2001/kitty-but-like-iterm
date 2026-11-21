@@ -72,7 +72,6 @@ Anything not listed here does nothing.
 | Keys | Does | kitty action |
 |---|---|---|
 | <kbd>⌘</kbd> <kbd>T</kbd> | New tab, same directory | `new_tab_with_cwd` |
-| <kbd>⌘</kbd> <kbd>W</kbd> | Close tab | `close_tab` |
 | <kbd>⌘</kbd> <kbd>⇧</kbd> <kbd>]</kbd> &nbsp;or&nbsp; <kbd>⌘</kbd> <kbd>⇧</kbd> <kbd>→</kbd> | Next tab | `next_tab` |
 | <kbd>⌘</kbd> <kbd>⇧</kbd> <kbd>[</kbd> &nbsp;or&nbsp; <kbd>⌘</kbd> <kbd>⇧</kbd> <kbd>←</kbd> | Previous tab | `previous_tab` |
 | <kbd>⌘</kbd> <kbd>1</kbd> … <kbd>⌘</kbd> <kbd>9</kbd> | Jump to tab N | `goto_tab N` |
@@ -83,7 +82,8 @@ Anything not listed here does nothing.
 |---|---|---|
 | <kbd>⌘</kbd> <kbd>D</kbd> | Split side by side | `launch --location=vsplit --cwd=current` |
 | <kbd>⌘</kbd> <kbd>⇧</kbd> <kbd>D</kbd> | Split top and bottom | `launch --location=hsplit --cwd=current` |
-| <kbd>⌘</kbd> <kbd>⇧</kbd> <kbd>W</kbd> | Close this split | `close_window` |
+| <kbd>⌘</kbd> <kbd>W</kbd> | Close this split (closes the tab if it was the last one) | `close_window` |
+| <kbd>⌘</kbd> <kbd>⇧</kbd> <kbd>W</kbd> | Close the whole tab, all its splits | `close_tab` |
 | <kbd>⌘</kbd> <kbd>⌥</kbd> <kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd> | Focus the split in that direction | `neighboring_window <dir>` |
 
 ### Windows
@@ -137,8 +137,7 @@ The file name prefix decides which set a theme belongs to: `dark-*.conf` themes 
 ```text
 kitty.conf ─┬─ include      iterm2-keys.conf     every shortcut, kitty defaults cleared
             ├─ geninclude   pick-theme.sh        base theme matching macOS appearance at startup
-            ├─ watcher      theme-watcher.py     appearance flips → re-roll every open window
-            └─ include      current-theme.conf   fallback colors (written by `kitten themes`)
+            └─ watcher      theme-watcher.py     appearance flips → re-roll every open window
 
 ~/.zshrc ──── random-theme.sh                    new window → random theme + matching tab tint
 ```
